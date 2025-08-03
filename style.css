@@ -1,0 +1,60 @@
+
+.Search{
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Search input[type="text"]{
+    width: 350px;
+}
+
+.city_day{
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.day_image{
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+    align-items: flex-end;
+
+    span{
+        font-size: 50px;
+        font-weight: bold;
+        padding-bottom: 40px;
+    }
+}
+
+.table-section{
+    display: flex;
+    justify-content: center;
+}
+
+.table-weather{
+    justify-content: center;
+    margin-top: 20px;
+    border-collapse: collapse;
+    display: none;
+    td{
+        text-align: start;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid gray;
+        padding: 10px;
+    }
+
+    th{
+        text-align: start;
+        border: 1px solid gray;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+
+    }
+}
